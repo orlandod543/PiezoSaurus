@@ -149,7 +149,7 @@ Wire Wire Line
 Text Label 5200 3900 0    50   ~ 0
 Vref
 Wire Wire Line
-	2800 6400 2850 6400
+	2800 6400 2950 6400
 Connection ~ 2800 6400
 Text Label 3000 6400 0    50   ~ 0
 Vref
@@ -167,7 +167,7 @@ $EndComp
 Wire Wire Line
 	1650 6850 1650 6700
 Wire Wire Line
-	7400 3900 7250 3900
+	7400 3900 7100 3900
 Wire Wire Line
 	7100 3900 7100 3750
 $Comp
@@ -673,7 +673,7 @@ Wire Wire Line
 	3250 3900 3450 3900
 Connection ~ 3450 3900
 Wire Wire Line
-	3450 3900 3600 3900
+	3450 3900 3700 3900
 $Comp
 L power:GND #PWR01
 U 1 1 5E57E517
@@ -727,6 +727,8 @@ F 12 "Active" H 5350 5300 60  0001 L CNN "Status"
 $EndComp
 Wire Wire Line
 	4700 4000 4700 4100
+Wire Wire Line
+	4950 4100 4700 4100
 Connection ~ 4700 4100
 Wire Wire Line
 	4700 4100 4700 4250
@@ -754,7 +756,7 @@ Wire Wire Line
 	6200 4000 6300 4000
 Connection ~ 6300 4000
 Wire Wire Line
-	6300 4000 6800 4000
+	6300 4000 7000 4000
 Wire Wire Line
 	7100 3350 7100 3450
 Wire Wire Line
@@ -798,7 +800,7 @@ F 3 "~" H 5150 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4700 1500 5000 1500
+	4700 1500 5150 1500
 Wire Notes Line
 	2600 850  5450 850 
 Wire Notes Line
@@ -988,116 +990,4 @@ Wire Wire Line
 	3900 4100 3900 4250
 Wire Wire Line
 	4700 4250 3900 4250
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5E58F22F
-P 6800 4000
-F 0 "TP5" H 6858 4072 50  0000 L CNN
-F 1 "TestPoint" H 6858 4027 50  0001 L CNN
-F 2 "" H 7000 4000 50  0001 C CNN
-F 3 "~" H 7000 4000 50  0001 C CNN
-	1    6800 4000
-	1    0    0    -1  
-$EndComp
-Connection ~ 6800 4000
-Wire Wire Line
-	6800 4000 7000 4000
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5E58F917
-P 7250 3900
-F 0 "TP6" H 7308 3972 50  0000 L CNN
-F 1 "TestPoint" H 7308 3927 50  0001 L CNN
-F 2 "" H 7450 3900 50  0001 C CNN
-F 3 "~" H 7450 3900 50  0001 C CNN
-	1    7250 3900
-	1    0    0    -1  
-$EndComp
-Connection ~ 7250 3900
-Wire Wire Line
-	7250 3900 7100 3900
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5E58FEAB
-P 4700 4000
-F 0 "TP3" H 4758 4072 50  0000 L CNN
-F 1 "TestPoint" H 4758 4027 50  0001 L CNN
-F 2 "" H 4900 4000 50  0001 C CNN
-F 3 "~" H 4900 4000 50  0001 C CNN
-	1    4700 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5E5925EC
-P 5000 1500
-F 0 "TP4" H 5058 1572 50  0000 L CNN
-F 1 "TestPoint" H 5058 1527 50  0001 L CNN
-F 2 "" H 5200 1500 50  0001 C CNN
-F 3 "~" H 5200 1500 50  0001 C CNN
-	1    5000 1500
-	1    0    0    -1  
-$EndComp
-Connection ~ 5000 1500
-Wire Wire Line
-	5000 1500 5150 1500
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5E596727
-P 2850 6400
-F 0 "TP1" H 2908 6472 50  0000 L CNN
-F 1 "TestPoint" H 2908 6427 50  0001 L CNN
-F 2 "" H 3050 6400 50  0001 C CNN
-F 3 "~" H 3050 6400 50  0001 C CNN
-	1    2850 6400
-	1    0    0    -1  
-$EndComp
-Connection ~ 2850 6400
-Wire Wire Line
-	2850 6400 2950 6400
-Connection ~ 4700 4000
-Wire Wire Line
-	4700 4100 4950 4100
-$Comp
-L Device:C C8
-U 1 1 5E59F33B
-P 1350 6550
-F 0 "C8" H 1300 6450 50  0000 C CNN
-F 1 "22nF" H 1250 6650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1388 6400 50  0001 C CNN
-F 3 "~" H 1350 6550 50  0001 C CNN
-	1    1350 6550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1350 6400 1350 6300
-Wire Wire Line
-	1350 6300 1650 6300
-$Comp
-L power:GND #PWR0117
-U 1 1 5E5A352C
-P 1350 6850
-F 0 "#PWR0117" H 1350 6600 50  0001 C CNN
-F 1 "GND" H 1355 6677 50  0000 C CNN
-F 2 "" H 1350 6850 50  0001 C CNN
-F 3 "" H 1350 6850 50  0001 C CNN
-	1    1350 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 6850 1350 6700
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5E5AB83D
-P 3600 3900
-F 0 "TP2" H 3658 3972 50  0000 L CNN
-F 1 "TestPoint" H 3658 3927 50  0001 L CNN
-F 2 "" H 3800 3900 50  0001 C CNN
-F 3 "~" H 3800 3900 50  0001 C CNN
-	1    3600 3900
-	1    0    0    -1  
-$EndComp
-Connection ~ 3600 3900
-Wire Wire Line
-	3600 3900 3700 3900
 $EndSCHEMATC

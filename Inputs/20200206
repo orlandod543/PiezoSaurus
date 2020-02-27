@@ -1,0 +1,8 @@
+I have put three piezo in parallel to check if the sensitivity increases but with not much success. The design is only sensible to vibrations but not to pressure.
+
+Then I have disconnected the piezo and connected the multimeter directly and the sensitivity increases significantly. The voltage levels at small pressures swings in hundreds of mV. My theory is that the input impedance of the conditioning signal is too small, the higher input impedance the better as the small energy generated on the piezo is not drained through the resistances.
+
+We have to find a way to verify this. 
+
+The easiest way is to increase the impedance of the input to 100k and 470k.
+
