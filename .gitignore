@@ -1,1 +1,5 @@
 _autosave-*
+*.log
+Simulations/Piezo_amplifier.log Simulations/Piezo_amplifierV2.0.log
+Simulations/Piezo_amplifier.log Simulations/Piezo_amplifierV2.0.log
+**/*.log
