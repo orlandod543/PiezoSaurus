@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/orlando/workspace/git/PiezoSaurus/piezo_amplifier/piezo_amplifier.sch</source>
-    <date>Sun 12 Apr 2020 11:46:04 PM CEST</date>
+    <date>Mon 13 Apr 2020 12:33:15 AM CEST</date>
     <tool>Eeschema 5.1.5-1.fc31</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -387,7 +387,7 @@
       <fields>
         <field name="Description">0R jumper 0603</field>
         <field name="Generic">1</field>
-        <field name="Installed">NU</field>
+        <field name="Installed">NI</field>
         <field name="Populate">1</field>
       </fields>
       <libsource lib="Resistor_SMD_0603" part="0R" description="1/4W 100ppm"/>
@@ -401,7 +401,7 @@
       <fields>
         <field name="Description">0R jumper 0603</field>
         <field name="Generic">1</field>
-        <field name="Installed">NU</field>
+        <field name="Installed">NI</field>
         <field name="Populate">1</field>
       </fields>
       <libsource lib="Resistor_SMD_0603" part="0R" description="1/4W 100ppm"/>

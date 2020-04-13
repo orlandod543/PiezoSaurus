@@ -1049,7 +1049,7 @@ F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 9000 4000 50  0001 C CNN
 F 4 "0R jumper 0603" H 9000 4000 50  0001 C CNN "Description"
 F 5 "1" H 9000 4000 50  0001 C CNN "Populate"
 F 6 "1" H 9000 4000 50  0001 C CNN "Generic"
-F 7 "NU" H 9000 4000 50  0001 C CNN "Installed"
+F 7 "NI" H 9000 4000 50  0001 C CNN "Installed"
 	1    9000 4000
 	0    1    1    0   
 $EndComp
@@ -1064,7 +1064,7 @@ F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 9000 4750 50  0001 C CNN
 F 4 "0R jumper 0603" H 9000 4750 50  0001 C CNN "Description"
 F 5 "1" H 9000 4750 50  0001 C CNN "Populate"
 F 6 "1" H 9000 4750 50  0001 C CNN "Generic"
-F 7 "NU" H 9000 4750 50  0001 C CNN "Installed"
+F 7 "NI" H 9000 4750 50  0001 C CNN "Installed"
 	1    9000 4750
 	0    1    1    0   
 $EndComp

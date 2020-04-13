@@ -343,7 +343,7 @@ F 3 "" H 8300 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D1
+L OPTO_LED_0603:Green D1
 U 1 1 5CC29D9A
 P 8300 4600
 F 0 "D1" V 8338 4483 50  0000 R CNN
@@ -470,15 +470,18 @@ F 3 "" H 3600 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D3
+L OPTO_LED_0603:Green D3
 U 1 1 5E5ABDA9
 P 3600 1800
 F 0 "D3" V 3638 1683 50  0000 R CNN
 F 1 "LED" V 3547 1683 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 3600 1800 50  0001 C CNN
-F 3 "~" H 3600 1800 50  0001 C CNN
-F 4 "Green LED" V 3600 1800 50  0001 C CNN "Comment"
-F 5 "1" V 3600 1800 50  0001 C CNN "Populate"
+F 3 "https://katalog.we-online.de/led/datasheet/150060VS75000.pdf" H 3600 1800 50  0001 C CNN
+F 4 "LED Green 20mA 2V" H 3600 1800 50  0001 C CNN "Description"
+F 5 "0" H 3600 1800 50  0001 C CNN "Generic"
+F 6 "NI" H 3600 1800 50  0001 C CNN "Installed"
+F 7 "150060VS75000" H 3600 1800 50  0001 C CNN "MPN"
+F 8 "Würth Elektronik" H 3600 1800 50  0001 C CNN "Manufacturer"
 	1    3600 1800
 	0    -1   -1   0   
 $EndComp
@@ -1046,7 +1049,7 @@ F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 9000 4000 50  0001 C CNN
 F 4 "0R jumper 0603" H 9000 4000 50  0001 C CNN "Description"
 F 5 "1" H 9000 4000 50  0001 C CNN "Populate"
 F 6 "1" H 9000 4000 50  0001 C CNN "Generic"
-F 7 "NU" H 9000 4000 50  0001 C CNN "Installed"
+F 7 "NI" H 9000 4000 50  0001 C CNN "Installed"
 	1    9000 4000
 	0    1    1    0   
 $EndComp
@@ -1061,7 +1064,7 @@ F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 9000 4750 50  0001 C CNN
 F 4 "0R jumper 0603" H 9000 4750 50  0001 C CNN "Description"
 F 5 "1" H 9000 4750 50  0001 C CNN "Populate"
 F 6 "1" H 9000 4750 50  0001 C CNN "Generic"
-F 7 "NU" H 9000 4750 50  0001 C CNN "Installed"
+F 7 "NI" H 9000 4750 50  0001 C CNN "Installed"
 	1    9000 4750
 	0    1    1    0   
 $EndComp
